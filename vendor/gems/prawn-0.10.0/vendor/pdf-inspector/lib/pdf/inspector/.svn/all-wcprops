@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/vendor/pdf-inspector/lib/pdf/inspector
+END
+xobject.rb
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/vendor/pdf-inspector/lib/pdf/inspector/xobject.rb
+END
+graphics.rb
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/vendor/pdf-inspector/lib/pdf/inspector/graphics.rb
+END
+text.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/vendor/pdf-inspector/lib/pdf/inspector/text.rb
+END
+extgstate.rb
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/vendor/pdf-inspector/lib/pdf/inspector/extgstate.rb
+END
+page.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/vendor/pdf-inspector/lib/pdf/inspector/page.rb
+END

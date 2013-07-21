@@ -1,0 +1,15 @@
+<p>
+  <b>Title:</b>
+  <%=h @create_newsletter.title %>
+</p>
+<p>
+  <b>Tipo:</b>
+  <%=h @create_newsletter.tipo_id %>
+</p>
+<p>
+  <b>Content:</b>
+  <%= @create_newsletter.content %>
+</p>
+<%= link_to 'Edit', edit_create_newsletter_path(@create_newsletter) %> |
+<%= link_to 'Back', create_newsletters_path %>|
+<%= link_to 'Enviar Email', deliver_create_newsletters_path(:tipo_id=>@create_newsletter.tipo_id, :carta=>@create_newsletter.id) %>|

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general
+END
+margin.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/margin.rb
+END
+templates.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/templates.rb
+END
+background.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/background.rb
+END
+outlines.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/outlines.rb
+END
+page_numbering.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/page_numbering.rb
+END
+multi_page_layout.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/multi_page_layout.rb
+END
+stamp.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/stamp.rb
+END
+float.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/float.rb
+END
+measurement_units.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/measurement_units.rb
+END
+page_geometry.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/page_geometry.rb
+END
+context_sensitive_headers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/context_sensitive_headers.rb
+END
+metadata-info.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/metadata-info.rb
+END
+repeaters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/repeaters.rb
+END
+canvas.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/general/canvas.rb
+END

@@ -1,0 +1,22 @@
+<h1>Listing create_newsletters</h1>
+
+<table>
+  <tr>
+  </tr>
+
+<% @create_newsletters.each do |create_newsletter| %>
+
+  <tr> </tr>
+  
+  <tr>
+    <td>Title:<%=h create_newsletter.title %> </td>
+    <td><%= link_to 'Show', create_newsletter %></td>
+    <td><%= link_to 'Edit', edit_create_newsletter_path(create_newsletter) %></td>
+    <td><%= link_to 'Destroy', create_newsletter, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New create_newsletter', new_create_newsletter_path %>

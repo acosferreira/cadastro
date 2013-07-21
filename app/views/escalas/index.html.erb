@@ -1,0 +1,29 @@
+<div class="active-scaffold-header">
+  <h2>Escala</h2>
+</div>
+<table width="740px" cellspacing="0" cellpadding="3">
+  <tr>
+    <td>Grupos: <%=  collection_select(:post, :id, Tipo.all, :id, :name, {:prompt => true}, :index=> 2)%></td>
+  </tr>
+  <tr><td>Reunião<%=  collection_select(:post, :id, Reuniao.all, :id, :name, {:prompt => true}, :index=> 3)%></td>
+
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>
+      <%= button_to_remote("View HTML", :update => 'html',
+        :url => {:controller => 'escalas', :action => :show},
+        :with => "'funcao='+$('post_2_id').value+'&reuniao='+$('post_3_id').value") %>
+      &nbsp;
+      <%= button_to_remote("View PDF", :update => 'pdf',
+        :url => {:controller => 'escalas', :action => :download},
+        :with => "'funcao='+$('post_2_id').value") %>
+
+    </td>
+  </tr>
+</table>
+<br/>
+<div id="html"> </div>
+<div id="pdf"> </div>
+
+

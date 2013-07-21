@@ -1,0 +1,88 @@
+<%= flash[:notice] %>
+  <% form_tag do %>
+<table width="300" border="0" cellpadding="0" cellspacing="0" align="center">
+
+  <tr>
+
+    <td width="300" valign="top" >
+
+      <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+
+               <tr>
+
+          <td width="6" height="4" bgcolor="#F7F4E0" class="modulo_castanho"></td>
+
+          <td height="4" bgcolor="#F7F4E0" class="modulo_castanho"></td>
+
+
+        </tr>       <tr>
+
+          <td width="6" height="4" bgcolor="#F7F4E0" class="modulo_castanho"></td>
+
+          <td height="4" bgcolor="#F7F4E0" class="modulo_castanho">IURD-Pça Seca</td>
+
+
+        </tr>
+        <tr>
+
+          <td width="6" height="4" bgcolor="#F7F4E0" class="modulo_castanho"></td>
+
+          <td height="4" bgcolor="#F7F4E0" class="modulo_castanho"></td>
+
+          
+        </tr>
+        <tr>
+
+          <td width="6" height="4" bgcolor="#F7F4E0" class="modulo_castanho"></td>
+
+          <td height="4" bgcolor="#F7F4E0" class="modulo_castanho"></td>
+
+
+        </tr>
+        <tr>
+
+          <td width="6" bgcolor="#EFECD5" class="modulo_castanho"></td>
+
+          <td bgcolor="#EFECD5" class="modulo_castanho">Login</td>
+
+       
+      
+        </tr>
+ <tr>
+
+          <td width="6%" bgcolor="#F7F4E0"></td>
+
+          <td width="23%" height="94" bgcolor="#F7F4E0">
+
+          <table width="71%" height="89" border="0" align="left" cellpadding="0" cellspacing="0">
+
+          <tr>
+
+          <td colspan="2">
+
+            <div>
+               <label for="name">Name:</label>
+               <%= text_field_tag :login, params[:login] %>
+            </div>
+
+            <div>
+              <label for="password">Password:</label>
+              <%= password_field_tag :password %>
+            </div>
+          </td>
+
+          </tr>
+
+          <tr>
+
+                  <td width="23%"></td>
+
+                  <td width="77%" ><%= submit_tag "Login" %></td>
+
+          </tr>
+
+          </table>
+
+ </tr>
+</table>
+  <% end %>

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text
+END
+alignment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/alignment.rb
+END
+shaped_text_box.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/shaped_text_box.rb
+END
+inline_format.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/inline_format.rb
+END
+hyphenation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/hyphenation.rb
+END
+family_based_styling.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/family_based_styling.rb
+END
+indent_paragraphs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/indent_paragraphs.rb
+END
+text_box.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/text_box.rb
+END
+simple_text.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/simple_text.rb
+END
+kerning.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/kerning.rb
+END
+font_size.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/font_size.rb
+END
+rotated.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/rotated.rb
+END
+text_box_returning_excess.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/text_box_returning_excess.rb
+END
+font_calculations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/font_calculations.rb
+END
+simple_text_ttf.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/simple_text_ttf.rb
+END
+dfont.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/dfont.rb
+END
+text_underlays.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/text_underlays.rb
+END
+text_flow.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/examples/text/text_flow.rb
+END

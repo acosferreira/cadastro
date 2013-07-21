@@ -1,0 +1,26 @@
+<style>
+
+  .not_found {
+    border: 2px solid red;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: #f0f0f0;
+    font: bold smaller sans-serif;
+  }
+
+  #legend {
+    font-size: 26px;
+
+  }
+</style>
+
+<div id="print_register">
+  
+    <div id="print-register" class="print-register">
+      <div class="icon_pdf">
+        <%= link_to 'Imprimir Ficha', {:action => 'print_register', :id=> "#{@pessoa.id}.pdf", {:popup=>true}%>
+      </div>
+    </div>
+    
+  
+</div>

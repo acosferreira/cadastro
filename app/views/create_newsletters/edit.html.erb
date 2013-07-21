@@ -1,0 +1,17 @@
+
+
+<% form_for(@create_newsletter) do |f| %>
+
+  <%= f.label :title %> &nbsp;<%= f.text_field :title %><br/><br/><br/>
+  <%= f.label :tipo%>: &nbsp;<%= f.select_tag "create_newsletter[tipo_id]", "<option value = 99> Todos </options> <option value= 88> Aniversariantes </options>" + options_for_select(Tipo.all.collect{ |u| [u.name, u.id] })%><br/><br/><br/>
+  <%= f.cktext_area :content, :toolbar=>'Full', :width=>'900px', :height=>'300px' %>
+
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @create_newsletter %> |
+<%= link_to 'Back', create_newsletters_path %>

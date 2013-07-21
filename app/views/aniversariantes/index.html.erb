@@ -1,0 +1,27 @@
+<div class="active-scaffold-header">
+  <h2>Aniversariantes do Mês</h2>
+</div>
+<table width="740px" cellspacing="0" cellpadding="3">
+  <tr>
+    <td>Mês:</td>
+    <td><%=date_select('mes', :user_month_numbers, :order=>[:month], :index=>2) %> </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>
+      <%= button_to_remote("View HTML", :update => 'html',
+                      :url => {:controller => 'aniversariantes', :action => :show},
+                      :with => "'mes='+$('mes_2_user_month_numbers_2i').value") %>
+      &nbsp;
+      <%= button_to_remote("View PDF", :update => 'pdf',
+                            :url => {:controller => 'aniversariantes', :action => :download},
+                            :with => "'mes='+$('mes_2_user_month_numbers_2i').value") %>
+      
+    </td>
+  </tr>
+</table>
+<br/>
+<div id="html"> </div>
+<div id="pdf"> </div>
+<div id="csv"> </div>
+

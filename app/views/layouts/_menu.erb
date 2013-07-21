@@ -1,0 +1,119 @@
+<style type="text/css">
+  .menu{
+	border:none;
+	border:0px;
+	padding:0px;
+	font-family:verdana,geneva,arial,helvetica,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+        color: #fff;
+        width: 100%;
+        z-index:200;
+        margin: 0 0 0 0;
+	}
+.menu ul{
+	background:url(../images/background_menu.gif) top left repeat-x;
+/*        background-color: #e0e0e0;*/
+	height:45px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	.menu li{
+		float:left;
+		}
+	.menu li a{
+		color:#666666;
+		display:block;
+		font-weight:bold;
+		line-height:22px;
+		padding:0px 10px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.menu li a:hover{
+			color:#000;
+			text-decoration:none;
+                        background: none;
+			}
+	.menu li ul{
+		background:#e6f2ff;
+		border-left:2px solid #c5dbf7;
+		border-right:2px solid #c5dbf7;
+		border-bottom:2px solid #c5dbf7;
+		display:none;
+		height:auto;
+		filter:alpha(opacity=95);
+		opacity:0.95;
+		position:absolute;
+		width:170px;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.menu li:hover ul{
+		display:block;
+                top: auto;
+                z-index:200;
+		}
+	.menu li li {
+		display:block;
+		float:none;
+		width:225px;
+		}
+	.menu li ul a{
+		display:block;
+		font-size:12px;
+		font-style:normal;
+		/*padding:0px 5px 0px 5px;*/
+		text-align:left;
+		}
+		.menu li ul a:hover{
+/*			background:#949494;*/
+			color:#000;
+			opacity:1.0;
+			filter:alpha(opacity=100);
+                        /*z-index:200;*/
+			}
+	.menu p{
+		clear:left;
+		}
+	.menu #current{
+		background:url(../images/current-bg.gif) top left repeat-x;
+		color:#ffffff;
+		}
+
+
+</style>
+<div class="menu">
+  <ul>
+    <li><%= image_tag('iurd_logo.jpeg', :size => "100x70") %></li>
+    <li>
+      <%= link_to "Cadatro", pessoas_url%>
+      <ul>
+        <li><%= link_to "Cônjuge", conjuges_url%></li>
+        <li><%= link_to "Filhos", filhos_url%></li>
+      </ul>
+    </li>
+
+    <li><%= link_to "Escala", pessoas_reuniaos_url%>
+      <ul><li><%= link_to "Reunioes", reuniaos_url%></li></ul>
+    </li>
+
+    <li><%= link_to "Configuração"%>
+      <ul><li><%= link_to "Tipo", tipos_url%></li>
+        <li><%= link_to "Instrução", escolaridades_url%></li>
+        <li><%= link_to "Usuário", usuarios_url %></li></ul></li>
+
+
+    <li><%= link_to "Relatórios"%>
+      <ul><li><%= link_to "Aniversariantes do Mês",  :controller => 'aniversariantes', :action => 'index' %></li>
+        <li><%= link_to 'Grupos', :controller => 'membros', :action => 'index' %></li>
+        <li><%= link_to "Escala Diária", :controller => 'escalas', :action => 'index' %></li>
+      <li><%= link_to "News Letter", :controller => 'create_newsletters', :action => 'index' %></li></ul></li>
+
+    <li><%= link_to "Sair", logout_path %></li>
+  </ul>
+
+
+</div>

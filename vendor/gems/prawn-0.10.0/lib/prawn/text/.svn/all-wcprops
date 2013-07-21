@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/lib/prawn/text
+END
+underlay.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/lib/prawn/text/underlay.rb
+END
+formatted.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/lib/prawn/text/formatted.rb
+END
+fragment_underlay.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/lib/prawn/text/fragment_underlay.rb
+END
+box.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ruby/!svn/ver/768/Price%20Picture/Ruby/trunk/vendor/gems/prawn-0.10.0/lib/prawn/text/box.rb
+END
